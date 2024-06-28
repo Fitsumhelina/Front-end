@@ -3,9 +3,9 @@ import './register.css';
 import { Link } from 'react-router-dom';
 import { toast } from "react-toastify";
 import { createUserWithEmailAndPassword, } from "firebase/auth";
-import { auth, db } from "../../../../../server/lib/firebase.js";
+import { auth, db } from "../../lib/firebase.js";
 import { doc, setDoc, collection, query, where, getDocs } from "firebase/firestore";
-import upload from "../../../../../server/lib/upload.js";
+import upload from "../../lib/upload.js";
 import { useNavigate } from "react-router-dom";
 
 const Register = () => {

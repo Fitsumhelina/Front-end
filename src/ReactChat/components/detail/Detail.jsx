@@ -1,7 +1,7 @@
 import { arrayRemove, arrayUnion, doc, updateDoc } from "firebase/firestore";
-import { useChatStore } from "../../../../../server/lib/chatStore";
-import { auth, db } from "../../../../../server/lib/firebase";
-import { useUserStore } from "../../../../../server/lib/userStore";
+import { useChatStore } from "../../lib/chatStore";
+import { auth, db } from "../../lib/firebase";
+import { useUserStore } from "../../lib//userStore";
 import "./detail.css";
 import { useNavigate } from "react-router-dom";
 

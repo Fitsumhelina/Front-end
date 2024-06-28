@@ -3,7 +3,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import styles from './../header.module.css';
 import Chatpagebtn from './../../button/chatpagebtn';
-import { auth } from '../../../../../../server/lib/firebase';
+import { auth } from '../../../../ReactChat/lib/firebase';
 import Signup from '../../button/signup';
 function Chatpageheader() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

@@ -4,7 +4,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import Signup from './../../componets/button/signup.jsx';
 import Next from '../../componets/button/next.jsx';
 import Homeheader from './../../componets/header/landing/homeheader.jsx';
-import { useUserStore } from './../../../../../server/lib/userStore.js'; // Adjust the path as per your file structure
+import { useUserStore } from './../../../ReactChat/lib/userStore.js'; // Adjust the path as per your file structure
 
 
 const words = ["Tribe", "Family", "Community", "Former", "Tech-Group", "Problem-Solvers", "Code-Enthusiast", "Coder", "Dreamer"];

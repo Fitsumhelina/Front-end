@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { Link as RouterLink, useNavigate } from 'react-router-dom';
 import styles from './../header.module.css';
 import Dashboardbtn from './../../button/dashboardbtn';
-import { useUserStore } from './../../../../../../server/lib/userStore'; // Adjust the path as per your file structure
-import { auth } from './../../../../../../server/lib/firebase'; // Adjust the path as per your file structure
-import { useChatStore } from './../../../../../../server/lib/chatStore'; // Adjust the path as per your file structure
+import { useUserStore } from './../../../../ReactChat/lib/userStore'; // Adjust the path as per your file structure
+import { auth } from './../../../../ReactChat/lib/firebase'; // Adjust the path as per your file structure
+import { useChatStore } from './../../../../ReactChat/lib/chatStore'; // Adjust the path as per your file structure
 import { FaBars, FaTimes } from 'react-icons/fa'; // Import icons
 
 function Dashbordheader() {

@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./login.css";
 import { toast } from "react-toastify";
 import { signInWithEmailAndPassword } from "firebase/auth";
-import { auth } from "../../../../../server/lib/firebase";
+import { auth } from "../../lib/firebase";
 import { useNavigate, Link } from "react-router-dom";
 
 const Login = () => {

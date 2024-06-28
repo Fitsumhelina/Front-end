@@ -3,7 +3,7 @@ import './adcard.css';
 import chat1 from './../../../assets/chat.png';
 import chat2 from './../../../assets/chat2.png';
 import Signup from '../button/signup';
-import { useUserStore } from './../../../../../server/lib/userStore.js'; // Adjust the path as per your file structure
+import { useUserStore } from './../../../ReactChat/lib/userStore'; // Adjust the path as per your file structure
 
 
 function Adcard() {

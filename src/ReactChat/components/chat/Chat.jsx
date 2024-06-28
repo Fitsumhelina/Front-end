@@ -8,10 +8,10 @@ import {
   onSnapshot,
   updateDoc,
 } from "firebase/firestore";
-import { db } from "../../../../../server/lib/firebase";
-import { useChatStore } from "../../../../../server/lib/chatStore";
-import { useUserStore } from "../../../../../server/lib/userStore";
-import upload from "../../../../../server/lib/upload";
+import { db } from "../../lib/firebase";
+import { useChatStore } from "../../lib/chatStore";
+import { useUserStore } from "../../lib/userStore";
+import upload from "../../lib/upload";
 import { format } from "timeago.js";
 
 // Import icons
